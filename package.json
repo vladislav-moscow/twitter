@@ -9,6 +9,7 @@
   },
   "author": "Vladislav Lebedkin",
   "dependencies": {
+    "boxicons": "^2.1.2",
     "parcel": "^2.6.2",
     "parcel-transformer-hbs": "^1.0.4"
   },

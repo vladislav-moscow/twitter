@@ -1,5 +1,6 @@
 import './Sign.scss'
+import 'boxicons'
+
 import Sign from './Sign.hbs';
 
-const as = 'neenenenenenee'
-export default Sign({a: as});
+export default Sign();
