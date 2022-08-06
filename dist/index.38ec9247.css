@@ -1,0 +1,222 @@
+body, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.sign {
+  height: 100vh;
+  background: #000;
+}
+
+.sign .btn {
+  width: 320px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 22px;
+}
+
+.sign__container {
+  height: 90vh;
+  display: flex;
+}
+
+.sign__img {
+  width: 55%;
+  background-image: url("sign__bg.738ea561.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.sign__content {
+  width: 45%;
+  padding: 16px;
+}
+
+.sign__wrapper {
+  min-width: 437px;
+  max-width: 760px;
+  color: #d6d9db;
+  padding: 20px;
+}
+
+.sign__title {
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 4.5rem;
+}
+
+.sign__title-second {
+  font-size: 2.5rem;
+}
+
+.sign .btn-min {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: .3rem;
+  overflow: hidden;
+}
+
+.sign__btn-google {
+  color: #3c4043;
+  letter-spacing: .25px;
+  text-align: center;
+  background: #fff;
+  margin-top: 1rem;
+  font-size: 15.5px;
+  position: relative;
+}
+
+.sign__btn-apple {
+  text-align: center;
+  background: #fff;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0 1.25rem;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+}
+
+.sign__img-google {
+  height: 18px;
+  position: relative;
+  top: 3px;
+  left: -.5rem;
+}
+
+.sign__img-apple {
+  height: 20px;
+  position: relative;
+  top: -3px;
+}
+
+.sign__svg_primory {
+  height: 349px;
+  fill: #fff;
+  margin: auto;
+}
+
+.sign__svg_seccond {
+  height: 45px;
+  fill: #d6d9db;
+}
+
+.sign .dash {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.sign__dash {
+  max-width: 380px;
+  width: 320px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  align-items: center;
+  margin: 6px -4px;
+  display: flex;
+}
+
+.sign__dash .left, .sign__dash .right {
+  height: 1px;
+  width: 139px;
+  background-color: #2f3336;
+}
+
+.sign__dash .sign__and_wrapp .sign__and {
+  font-size: 1rem;
+}
+
+.sign__btn-signup {
+  color: #fff;
+  align-items: center;
+  padding: 0 1rem;
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 19px;
+  display: flex;
+  background-color: #1d9bf0 !important;
+  border-color: #0000 !important;
+}
+
+.sign__privacy_wrapp {
+  width: 300px;
+  color: #71767b;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.sign__privacy_wrapp .sign__privacy-link {
+  color: #1d9bf0;
+  cursor: pointer;
+}
+
+.sign__privacy_wrapp a:hover {
+  text-decoration: underline;
+}
+
+.sign__registr {
+  max-width: 380px;
+  margin-top: 40px;
+}
+
+.sign__registr-title {
+  color: #e7e9ea;
+  letter-spacing: .6px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.sign__registr-btn {
+  cursor: pointer;
+  width: 300px;
+  height: 40px;
+  color: #1d9bf0;
+  background: linear-gradient(to left, #0000 50%, #1d9bf01a 50%) 100% / 200%;
+  outline-style: none;
+  margin-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: all .5s ease-out;
+  border: 1px solid #536471 !important;
+}
+
+.sign__registr-btn:hover {
+  background-position: 0;
+}
+
+.sign__footer-nav {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 12px 1.5rem;
+  display: flex;
+}
+
+.sign__footer-link {
+  color: #71767b;
+  cursor: pointer;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-right: 1rem;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+/*# sourceMappingURL=index.38ec9247.css.map */

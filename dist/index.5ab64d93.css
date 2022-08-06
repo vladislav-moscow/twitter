@@ -1,0 +1,43 @@
+.sign {
+  height: 100vh;
+  background: #000;
+}
+
+.sign__container {
+  height: 90vh;
+  display: flex;
+}
+
+.sign__img {
+  width: 50%;
+  background-image: url("sign__bg.738ea561.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.sign__content {
+  width: 50%;
+}
+
+.sign__svg_primory {
+  height: 225px;
+  fill: #fff;
+  margin: auto;
+}
+
+.sign__svg_seccond {
+  height: 45px;
+  fill: red;
+}
+
+.sign__footer {
+  display: flex;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=index.5ab64d93.css.map */
